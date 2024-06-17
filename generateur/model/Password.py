@@ -16,7 +16,6 @@ class Password:
         return '...'
 
     def generate(self) -> str:
-        print(self)
         characters = ''
         if self.uppercase:
             characters += string.ascii_uppercase
